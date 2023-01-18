@@ -1,5 +1,5 @@
 Feature: Atolye15 Website Testing
-  Scenario: Adding and removing products
+  Scenario: Verify
 
     Given Navigate to Atolye15 Website and Verify that you are on the homepage
     When User should able to click events
