@@ -1,6 +1,6 @@
 package StepDefinitions;
 
-import Pages.DialogContent;
+import Pages.ContentElement;
 import Utilities.GWD;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -22,7 +22,7 @@ import static Utilities.GWD.driver;
 
 public class Atolye15Steps {
 
-    DialogContent dc = new DialogContent();
+    ContentElement dc = new ContentElement();
     Actions actions = new Actions(driver);
     WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(20));
 

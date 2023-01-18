@@ -1,4 +1,4 @@
-Feature: Beymen Website Testing
+Feature: Atolye15 Website Testing
   Scenario: Adding and removing products
 
     Given Navigate to Atolye15 Website and Verify that you are on the homepage

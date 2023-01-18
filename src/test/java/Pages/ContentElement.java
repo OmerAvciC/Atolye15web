@@ -5,11 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import java.util.List;
+public class ContentElement extends Parent{
 
-public class DialogContent extends Parent {
-
-    public DialogContent() {
+    public ContentElement() {
         PageFactory.initElements(GWD.getDriver(), this);
     }
 

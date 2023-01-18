@@ -20,7 +20,7 @@ public class Atolye15Runner extends AbstractTestNGCucumberTests {
         ExtentService.getInstance().setSystemInfo("Application Name", "Atolye15");
         ExtentService.getInstance().setSystemInfo("Operating System Info", System.getProperty("os.name").toString());
         ExtentService.getInstance().setSystemInfo("Department", "QA");
-        ExtentService.getInstance().setSystemInfo("Ability", "Bug Hunter");
+        ExtentService.getInstance().setSystemInfo("Ability", "Searcher");
     }
 
 }
